@@ -31,7 +31,7 @@ cacheSolve <- function(x, ...) {
 
     #if it has already been calculated, return the cached value
     if (!is.null(inv)) {
-        message("Getting cached inverse matrix") #this helps to see when it's returning the cache'd value
+        message("Getting cached inverse matrix") #this helps to see when it's returning the cached value
         return(inv)
     }
 
